@@ -1,0 +1,93 @@
+
+body {margin:0;
+  font-family: "Times New Roman", Georgia, Serif;
+  background: url(pocetna.jpg);
+display: block;
+  background-size: cover;
+  padding: 0; }
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    text-shadow: 5px 1px white;
+    font-size: 100px;
+    color: #333;
+}
+
+section.home, section.menu, section.kontakt, section.onama {
+    margin: 20px;
+    font-size: 20px;
+    color: #333 ;
+    text-shadow: 1px 1px white;
+    padding-top: 150px;
+    padding-bottom: 150px;
+  }
+
+  section.onama {
+    padding-bottom: 0px;
+  }
+
+  h2{
+    text-align: center;
+    text-shadow: 2px 2px white;
+  }
+  section.home {
+    padding-top: 200px;
+    padding-bottom: 200px;
+  }
+
+
+div.slike {
+    margin: 150px;
+    padding: 20px;
+}
+section.povratak {
+    text-align: right;
+     color: black ;
+    text-shadow: 1px 1px white;
+    padding-right: 50px;
+  font-size: 25px;
+}
+
+
+.povratak  a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+
+  footer {
+    text-align: center; 
+    background: #333;
+    color: white;
+    font-size: 20px;
+
+  }
+
+
+
